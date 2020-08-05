@@ -14,13 +14,13 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={"O que é Front-end?"}/>         
-
+{/* 
         <Carousel
           ignoreFistVideo
           category={dadosIniciais.categorias[0]}
-        />
+        /> */}
 
-        <Carousel
+        {/* <Carousel
           category={dadosIniciais.categorias[1]}
         />
         <Carousel
@@ -34,7 +34,7 @@ function Home() {
         />
         <Carousel
           category={dadosIniciais.categorias[5]}
-        />
+        /> */}
       <Footer/>
     </div>
   );
